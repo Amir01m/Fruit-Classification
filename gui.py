@@ -1,7 +1,6 @@
 import tkinter as ttk
 from file_chooser import chooose_file
-from PIL import ImageTk , Image
-import numpy as np
+from PIL import ImageTk
 #GUI
 def gui():
     root = ttk.Tk()
