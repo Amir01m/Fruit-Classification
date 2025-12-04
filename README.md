@@ -58,7 +58,7 @@ The program uses Tkinter GUI, which includes:
 
 <h3>5️⃣ How to Use</h3>
 <ol>
-    <li>Run <code>main.py</code> with Python 3.x</li>
+    <li>Run <code>gui.py</code> with Python 3.x</li>
     <li>Click "Choose File" and select an image of apple or banana</li>
     <li>The program will display the predicted fruit in the label</li>
     <li>Click "Exit" to close the application</li>
@@ -88,7 +88,7 @@ pip install numpy pillow scikit-learn
 
 <h2>▶ Running the Program</h2>
 <pre>
-python main.py
+python gui.py
 </pre>
 
 <hr>
@@ -97,11 +97,15 @@ python main.py
 <pre>
 Fruit-Classification/
 │
-├── main.py
+
 ├── dataset/
 │   ├── apple/
 │   └── banana/
-└── README.html
+├──.gitignore
+├── file_chooser.py
+├── gui.py
+├── model.py
+└── README.md
 </pre>
 
 <hr>
